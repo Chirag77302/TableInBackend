@@ -8,8 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "modemon server.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    "dev": "modemon server.js"
   },
   "author": "devckrishna",
   "license": "ISC",
